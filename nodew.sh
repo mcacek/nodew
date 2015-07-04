@@ -1,3 +1,3 @@
 #!/bin/bash
-source setup.sh
+source $(dirname $0)/setup.sh
 exec "$@"
