@@ -6,8 +6,8 @@ NVM_DIR="$HOME/.nvm"
 if test -e "$PWD/$NODEWRC"; then
   source .nodewrc
 else
-  NODEW_NVM_VERSION="v0.25.4"
-  NODEW_NODE_VERSION="v0.10.36"
+  echo "Nodew configuration file not found!"
+  exit 1;
 fi
 
 if [ ! -d "$NVM_DIR" ]; then
