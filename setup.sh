@@ -18,7 +18,4 @@ if [ ! -d "$NVM_HOME/$NODE_VERSION" ]; then
   nvm install $NODE_VERSION
 fi
 
-echo $PATH
-export PATH=$PATH
-
 echo "Using installed node $NODE_VERSION installed at $NVM_HOME/$NODE_VERSION."
